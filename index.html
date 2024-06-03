@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Social Media</title>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="style/styles.css" />
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+  <script src="https://kit.fontawesome.com/e3b464e1a9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  
+  <nav>
+    <div class="nav-left">
+      <img src="images/logo.png" alt="logo" />
+      <ul>
+        <li><img src="images/notification.png" alt="" /></li>
+        <li><img src="images/inbox.png" alt="" /></li>
+        <li><img src="images/video.png" alt="" /></li>
+      </ul>
+    </div>
+    <div class="mobile-menu-container">
+      <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </div>
+    <div class="nav-right">
+      <div class="search-box">
+        <img src="images/search.png" />
+        <input type="text" placeholder="Search" />
+      </div>
+      <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+        <img src="images/kth.jpg" />
+      </div>
+    </div>
+    <!--------------------------- setting menu  -------------------->
+    <div class="setting-menu">
+      <div id="dark-btn" >
+        <span></span>
+      </div>
+
+      <div class="setting-menu-inner">
+        <div class="user-profile">
+          <img src="images/kth.jpg">
+          <div>
+            <p>Tran Gia Thinh</p>
+            <a href="#">See your profile</a>
+          </div>
+        </div>
+        <hr>
+        <div class="user-profile">
+          <img src="images/feedback.png">
+          <div>
+            <p>Give Feedback</p>
+            <a href="#">Help us to improve the new design</a>
+          </div>
+        </div>
+        <hr>
+
+        <div class="settings-links">
+          <img src="images/setting.png" class="setting-icon">
+          <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+        </div>
+
+        <div class="settings-links">
+          <img src="images/help.png" class="setting-icon">
+          <a href="#">Help & Support  <img src="images/arrow.png" width="10px"></a>
+        </div>
+
+        <div class="settings-links">
+          <img src="images/display.png" class="setting-icon">
+          <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+        </div>
+
+        <div class="settings-links">
+          <img src="images/logout.png" class="setting-icon">
+          <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+        </div>
+
+
+
+
+      </div>
+  </nav>
+
+  <div class="container">
+    <div class="home-left">
+
+      <div class="profile">
+          <img src="images/kth.jpg" alt="user">
+          <h3>Tran Gia Thinh</h3>
+      </div>
+     
+      <div class="pages">
+          <h4 class="mini-headign">Pages</h4>
+          <label>
+              <img src="images/messenger.png" alt="messenger">
+              <span>Messenger</span>
+          </label>
+          <label>
+              <img src="images/instagram.png" alt="instagram">
+              <span>Instagram</span>
+          </label>
+          <button class="see-more-btn">See more <i class="fa-solid fa-angle-down"></i></button>
+      </div>
+
+      <div class="group">
+          <h4 class="mini-headign">Group</h4>
+          <label>
+              <img src="images/gg.png" alt="group01">
+              <span>Cyber Security Group</span>
+          </label>
+          
+          <label>
+              <img src="images/gg2.png" alt="group02">
+              <span>J2Team Community</span>
+          </label>
+
+          <label>
+              <img src="images/gg3.png" alt="group03">
+              <span>Anime Vietsub</span>
+          </label>
+
+          <button class="see-more-btn">See more <i class="fa-solid fa-angle-down"></i></button>
+      </div>
+
+      <div class="games">
+          <h4 class="mini-headign">Games</h4>
+          <label>
+              <img src="images/game.png" alt="game01">
+              <span>Facebook games</span>
+          </label>
+          <label>
+              <img src="images/game2.png" alt="game02">
+              <span>Free Play Games</span>
+          </label>
+          <button class="see-more-btn">See more <i class="fa-solid fa-angle-down"></i></button>
+      </div>
+
+      <div class="explore">
+          <h4 class="mini-headign">Explore</h4>
+         
+          <a href="#"><i class="fa-solid fa-user-group"></i> Group</a>
+          <a href="#"><i class="fa-solid fa-star"></i></i> Favorites</a>
+          <a href="#"><i class="fa-solid fa-bookmark"></i></i> Saves</a>
+          <a href="#"><i class="fa-solid fa-clock"></i> Events</a>
+          <a href="#"><i class="fa-solid fa-flag"></i> Pages</a>
+          <button class="see-more-btn">See more <i class="fa-solid fa-angle-down"></i></button>
+      </div>
+      
+  </div>
+    <!-- main-content -->
+    <div class="main-content">
+      <div class="story-gallery">
+        <div class="story story1">
+          <img src="images/upload.png">
+          <p>Post Story</p>
+        </div>
+
+        <div class="story story2">
+          <img src="images/vu.jpg">
+          <p>Vũ.</p>
+        </div>
+
+        <div class="story story3">
+          <img src="images/umeko.jpg">
+          <p>Umeko J</p>
+        </div>
+
+        <div class="story story4">
+          <img src="images/remind.jpg">
+          <p>Remind</p>
+        </div>
+
+        <div class="story story5">
+          <img src="images/st.jpg">
+          <p>M-TP</p>
+        </div>
+      </div>
+
+      <div class="write-post-container">
+        <div class="user-profile">
+          <img src="images/kth.jpg">
+          <div>
+            <p>Tran Gia Thinh</p>
+            <small>Public <i class="fa-solid fa-caret-down"></i></small>
+          </div>
+        </div>
+
+        <div class="post-input-container">
+          <textarea rows="3" placeholder="What's on your mind"></textarea>
+          <div class="add-post-links">
+            <a href="#"><img src="images/live-video.png"> Live Video</a>
+            <a href="#"><img src="images/photo.png"> Photo/Video</a>
+            <a href="#"><img src="images/feeling.png"> Feeling/Activity</a>
+          </div>
+        </div>
+      </div>
+      <div class="post-container">
+        <div class="post-row">
+          <div class="user-profile">
+            <img src="images/kth.jpg">
+            <div>
+              <p>Tran Gia Thinh</p>
+              <span>April 30 2024, 4:18 pm</span>
+            </div>
+          </div>
+          <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+        </div>
+
+        <p class="post-text">No Caption ? 🤍
+        </p>
+        <img src="images/kth2.jpg" class="post-img">
+
+        <div class="post-row">
+          <div class="activity-icons">
+            <div><img src="images/like-blue.png"> 120</div>
+            <div><img src="images/comments.png"> 45</div>
+            <div><img src="images/share.png"> 20</div>
+          </div>
+          <div class="post-profile-icon">
+            <img src="images/kth.jpg"> <i class="fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="post-container">
+        <div class="post-row">
+          <div class="user-profile">
+            <img src="images/kth4.jpg">
+            <div>
+              <p>Khuc Thi Huong</p>
+              <span>May 26 2024, 6:20 pm</span>
+            </div>
+          </div>
+          <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+        </div>
+
+        <p class="post-text">Người yêu cũ tương lai của anh 😘
+          <br>💄 : https://shope.ee/3fhOawscAI
+        </p>
+        <img src="images/kth1.jpg" class="post-img">
+
+        <div class="post-row">
+          <div class="activity-icons">
+            <div><img src="images/like-blue.png"> 120</div>
+            <div><img src="images/comments.png"> 45</div>
+            <div><img src="images/share.png"> 20</div>
+          </div>
+          <div class="post-profile-icon">
+            <img src="images/kth4.jpg"> <i class="fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="post-container">
+        <div class="post-row">
+          <div class="user-profile">
+            <img src="images/pet.jpg">
+            <div>
+              <p>Pet Shop</p>
+              <span>January 27 2024, 11:18 am</span>
+            </div>
+          </div>
+          <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+        </div>
+
+        <p class="post-text">Chao mung den tiem thu cung cua chung to !!!
+        </p>
+        <img src="images/dog.jpg" class="post-img">
+
+        <div class="post-row">
+          <div class="activity-icons">
+            <div><img src="images/like-blue.png"> 120</div>
+            <div><img src="images/comments.png"> 45</div>
+            <div><img src="images/share.png"> 20</div>
+          </div>
+          <div class="post-profile-icon">
+            <img src="images/pet.jpg"> <i class="fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="post-container">
+        <div class="post-row">
+          <div class="user-profile">
+            <img src="images/vu.jpg">
+            <div>
+              <p>Vũ.</p>
+              <span>July 22 2023, 2:18 pm</span>
+            </div>
+          </div>
+          <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+        </div>
+
+        <p class="post-text">Sân khấu Dear Vũ. Universe🪐Dear Jane x Vũ. - Những Lời Hứa Bỏ Quên x 2084 ＠ CHILL CLUB Award 23/24 hiện đã có mặt trên YT của mình. Mời cả nhà ạ 🫶
+
+          #Vu #DearJane #ViuTV #WarnerMusicVN #CHILLCLUB
+        </p>
+        <img src="images/show.jpg" class="post-img">
+
+        <div class="post-row">
+          <div class="activity-icons">
+            <div><img src="images/like-blue.png"> 120</div>
+            <div><img src="images/comments.png"> 45</div>
+            <div><img src="images/share.png"> 20</div>
+          </div>
+          <div class="post-profile-icon">
+            <img src="images/vu.jpg"> <i class="fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="post-container">
+        <div class="post-row">
+          <div class="user-profile">
+            <img src="images/ely.jpg">
+            <div>
+              <p>Ely It Clean</p>
+              <span>September 30 2023, 1:48 pm</span>
+            </div>
+          </div>
+          <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+        </div>
+
+        <p class="post-text">chuẩn bị họp chợ 🫢 
+          <br>#elyitclean #dangthuha
+         <br> — với Đặng Thu Hà.    
+        </p>
+        <img src="images/ely1.jpg" class="post-img">
+
+        <div class="post-row">
+          <div class="activity-icons">
+            <div><img src="images/like-blue.png"> 120</div>
+            <div><img src="images/comments.png"> 45</div>
+            <div><img src="images/share.png"> 20</div>
+          </div>
+          <div class="post-profile-icon">
+            <img src="images/ely.jpg"> <i class="fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="post-container">
+        <div class="post-row">
+          <div class="user-profile">
+            <img src="images/Yua.jpg">
+            <div>
+              <p>Yua Mikami</p>
+              <span>April 26 2024, 5:18 pm</span>
+            </div>
+          </div>
+          <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+        </div>
+
+        <p class="post-text">ミルクティーを飲んでよく寝ましょう！😴😴
+          <br><b><a href="#">Xem bản dịch</a></b>
+        </p>
+        <img src="images/yua1.jpg" class="post-img">
+
+        <div class="post-row">
+          <div class="activity-icons">
+            <div><img src="images/like-blue.png"> 120</div>
+            <div><img src="images/comments.png"> 45</div>
+            <div><img src="images/share.png"> 20</div>
+          </div>
+          <div class="post-profile-icon">
+            <img src="images/yua.jpg"> <i class="fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="post-container">
+        <div class="post-row">
+          <div class="user-profile">
+            <img src="images/sayo.jpg">
+            <div>
+              <p>Huynh Thao</p>
+              <span>March 28 2024, 10:08 am</span>
+            </div>
+          </div>
+          <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+        </div>
+
+        <p class="post-text">Hello May !! Welcome to summer ❤️❤️❤️
+          <br><b><a href="#">Xem bản dịch</a></b>
+        </p>
+        <img src="images/sayo1.jpg" class="post-img">
+
+        <div class="post-row">
+          <div class="activity-icons">
+            <div><img src="images/like-blue.png"> 120</div>
+            <div><img src="images/comments.png"> 45</div>
+            <div><img src="images/share.png"> 20</div>
+          </div>
+          <div class="post-profile-icon">
+            <img src="images/sayo.jpg"> <i class="fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+
+      </div>
+
+      <button type="button" class="load-more-btn"> Load More</button>
+
+
+    </div>
+    <!-- right-sidebar -->
+    <div class="right-sidebar">
+      <div class="sidebar-title">
+        <h4>Events</h4>
+        <a href="#">See all</a>
+      </div>
+      <div class="event">
+        <div class="left-event">
+          <h3>18</h3>
+          <span>March</span>
+        </div>
+        <div class="right-event">
+          <h4>Đừng làm trái tim đau</h4>
+          <p><i class="fa-solid fa-location-dot"></i> Sơn Tùng MTP</p>
+          <a href="#">More Info</a>
+        </div>
+      </div>
+
+      <div class="event">
+        <div class="left-event">
+          <h3>29</h3>
+          <span>March</span>  
+        </div>
+        <div class="right-event">
+          <h4>Night Show</h4>
+          <p><i class="fa-solid fa-location-dot"></i> Phố Bùi Viện</p>
+          <a href="#">More Info</a>
+        </div>
+      </div>
+
+      <div class="sidebar-title">
+        <h4>Advertisement</h4>
+        <a href="#">Close</a>
+      </div>
+      <img src="images/shopee.png" class="sidebar-ads" />
+
+      <div class="sidebar-title">
+        <h4>Conversation</h4>
+        <a href="#">Hide Chat</a>
+      </div>
+
+      <div class="online-list">
+        <div class="online">
+          <img src="images/kth.jpg">
+        </div>
+        <p>Khuc Thi Huong</p>
+      </div>
+      <div class="online-list">
+        <div class="online">
+          <img src="images/Yua.jpg">
+        </div>
+        <p>Yua Mikami</p>
+      </div>
+      <div class="online-list">
+        <div class="online">
+          <img src="images/sayo.jpg">
+        </div>
+        <p>Huynh Thao</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Copyright by : Trần Gia Thịnh_DH52111817  D21_TH12 </p>
+  </div>
+  
+  <script src="js/script.js"></script>
+</body>
+
+</html>
